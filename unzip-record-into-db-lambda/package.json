@@ -1,0 +1,24 @@
+{
+  "name": "unzip-record-into-db-lambda",
+  "version": "1.0.0",
+  "description": "Lambda Function to Unzip GZip archive outputs from EMR and store them in RDS MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "amazon",
+    "zgip",
+    "s3",
+    "mapreduce",
+    "hadoop"
+  ],
+  "author": "Josh Hickman",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "zlib": "^1.0.5"
+  }
+}
