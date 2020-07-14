@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "CloudFrontAccess",
+    "Args": ["s3://joshjh.com-cloudfront-logs/","s3://elastic-visitor-analytics/output/2/"],
+    "Jar": "s3://elastic-visitor-analytics/bin/CloudFrontAccess.jar",
+    "ActionOnFailure":"CONTINUE",
+    "MainClass": "data.analytics.main.CloudFrontAccess",
+    "Type": "CUSTOM_JAR",
+    "Properties": "string"
+  }
+]
